@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E021C497248F825E00FF0F88 /* PotterKata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E021C48D248F825E00FF0F88 /* PotterKata.framework */; };
+		E021C49C248F825E00FF0F88 /* StoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E021C49B248F825E00FF0F88 /* StoreTests.swift */; };
+		E021C49E248F825E00FF0F88 /* PotterKata.h in Headers */ = {isa = PBXBuildFile; fileRef = E021C490248F825E00FF0F88 /* PotterKata.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E021C4A8248FC66500FF0F88 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = E021C4A7248FC66500FF0F88 /* Book.swift */; };
+		E021C4AA248FC67900FF0F88 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = E021C4A9248FC67900FF0F88 /* Store.swift */; };
+		E021C4AC248FC70C00FF0F88 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E021C4AB248FC70C00FF0F88 /* Bundle.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E021C498248F825E00FF0F88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E021C484248F825E00FF0F88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E021C48C248F825E00FF0F88;
+			remoteInfo = PotterKata;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E021C48D248F825E00FF0F88 /* PotterKata.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PotterKata.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E021C490248F825E00FF0F88 /* PotterKata.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PotterKata.h; sourceTree = "<group>"; };
+		E021C491248F825E00FF0F88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E021C496248F825E00FF0F88 /* PotterKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PotterKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E021C49B248F825E00FF0F88 /* StoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreTests.swift; sourceTree = "<group>"; };
+		E021C49D248F825E00FF0F88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E021C4A7248FC66500FF0F88 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		E021C4A9248FC67900FF0F88 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		E021C4AB248FC70C00FF0F88 /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E021C48A248F825E00FF0F88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E021C493248F825E00FF0F88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E021C497248F825E00FF0F88 /* PotterKata.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E021C483248F825E00FF0F88 = {
+			isa = PBXGroup;
+			children = (
+				E021C48F248F825E00FF0F88 /* PotterKata */,
+				E021C49A248F825E00FF0F88 /* PotterKataTests */,
+				E021C48E248F825E00FF0F88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E021C48E248F825E00FF0F88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E021C48D248F825E00FF0F88 /* PotterKata.framework */,
+				E021C496248F825E00FF0F88 /* PotterKataTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E021C48F248F825E00FF0F88 /* PotterKata */ = {
+			isa = PBXGroup;
+			children = (
+				E021C490248F825E00FF0F88 /* PotterKata.h */,
+				E021C4A7248FC66500FF0F88 /* Book.swift */,
+				E021C4AB248FC70C00FF0F88 /* Bundle.swift */,
+				E021C4A9248FC67900FF0F88 /* Store.swift */,
+				E021C491248F825E00FF0F88 /* Info.plist */,
+			);
+			path = PotterKata;
+			sourceTree = "<group>";
+		};
+		E021C49A248F825E00FF0F88 /* PotterKataTests */ = {
+			isa = PBXGroup;
+			children = (
+				E021C49B248F825E00FF0F88 /* StoreTests.swift */,
+				E021C49D248F825E00FF0F88 /* Info.plist */,
+			);
+			path = PotterKataTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E021C488248F825E00FF0F88 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E021C49E248F825E00FF0F88 /* PotterKata.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E021C48C248F825E00FF0F88 /* PotterKata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E021C4A1248F825E00FF0F88 /* Build configuration list for PBXNativeTarget "PotterKata" */;
+			buildPhases = (
+				E021C488248F825E00FF0F88 /* Headers */,
+				E021C489248F825E00FF0F88 /* Sources */,
+				E021C48A248F825E00FF0F88 /* Frameworks */,
+				E021C48B248F825E00FF0F88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PotterKata;
+			productName = PotterKata;
+			productReference = E021C48D248F825E00FF0F88 /* PotterKata.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E021C495248F825E00FF0F88 /* PotterKataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E021C4A4248F825E00FF0F88 /* Build configuration list for PBXNativeTarget "PotterKataTests" */;
+			buildPhases = (
+				E021C492248F825E00FF0F88 /* Sources */,
+				E021C493248F825E00FF0F88 /* Frameworks */,
+				E021C494248F825E00FF0F88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E021C499248F825E00FF0F88 /* PBXTargetDependency */,
+			);
+			name = PotterKataTests;
+			productName = PotterKataTests;
+			productReference = E021C496248F825E00FF0F88 /* PotterKataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E021C484248F825E00FF0F88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Valentin Kalchev";
+				TargetAttributes = {
+					E021C48C248F825E00FF0F88 = {
+						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
+					};
+					E021C495248F825E00FF0F88 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = E021C487248F825E00FF0F88 /* Build configuration list for PBXProject "PotterKata" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E021C483248F825E00FF0F88;
+			productRefGroup = E021C48E248F825E00FF0F88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E021C48C248F825E00FF0F88 /* PotterKata */,
+				E021C495248F825E00FF0F88 /* PotterKataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E021C48B248F825E00FF0F88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E021C494248F825E00FF0F88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E021C489248F825E00FF0F88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E021C4A8248FC66500FF0F88 /* Book.swift in Sources */,
+				E021C4AC248FC70C00FF0F88 /* Bundle.swift in Sources */,
+				E021C4AA248FC67900FF0F88 /* Store.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E021C492248F825E00FF0F88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E021C49C248F825E00FF0F88 /* StoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E021C499248F825E00FF0F88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E021C48C248F825E00FF0F88 /* PotterKata */;
+			targetProxy = E021C498248F825E00FF0F88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E021C49F248F825E00FF0F88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E021C4A0248F825E00FF0F88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E021C4A2248F825E00FF0F88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = JKJHN735FS;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PotterKata/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vkalchev.PotterKata;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E021C4A3248F825E00FF0F88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = JKJHN735FS;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PotterKata/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vkalchev.PotterKata;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E021C4A5248F825E00FF0F88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JKJHN735FS;
+				INFOPLIST_FILE = PotterKataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vkalchev.PotterKataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E021C4A6248F825E00FF0F88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JKJHN735FS;
+				INFOPLIST_FILE = PotterKataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vkalchev.PotterKataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E021C487248F825E00FF0F88 /* Build configuration list for PBXProject "PotterKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E021C49F248F825E00FF0F88 /* Debug */,
+				E021C4A0248F825E00FF0F88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E021C4A1248F825E00FF0F88 /* Build configuration list for PBXNativeTarget "PotterKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E021C4A2248F825E00FF0F88 /* Debug */,
+				E021C4A3248F825E00FF0F88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E021C4A4248F825E00FF0F88 /* Build configuration list for PBXNativeTarget "PotterKataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E021C4A5248F825E00FF0F88 /* Debug */,
+				E021C4A6248F825E00FF0F88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E021C484248F825E00FF0F88 /* Project object */;
+}
